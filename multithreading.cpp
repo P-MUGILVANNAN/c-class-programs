@@ -10,9 +10,7 @@ void display()
 int main()
 {
     thread t1(display);
-    thread t2(display);
     t1.join();
-    t2.join();
     return 0;
 }
 
